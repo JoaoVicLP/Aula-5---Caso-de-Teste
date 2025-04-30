@@ -3,9 +3,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.json({ message: "Servidor Node no ar!" });
-});
+  res.json({ message: "servidor Node no ar" });
+}
+);
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
+  console.log(`Servidor rodando, porta ${PORT}`);
+}
+);
